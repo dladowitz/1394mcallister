@@ -35,3 +35,8 @@ agent-website: "http://www.tradecrafted.com"
 # TODO  Add gallery images here
 gallery-image-01: "https://dl.dropboxusercontent.com/s/56cpb9eb72ves83/IMG_9436.JPG?dl=0"
 gallery-image-02: "https://dl.dropboxusercontent.com/s/pcoxq8nv4rorbno/IMG_9446.JPG?dl=0"
+
+meta-tag-image-01: "https://dl.dropboxusercontent.com/s/56cpb9eb72ves83/IMG_9436.JPG"
+meta-tag-image-02: "https://dl.dropboxusercontent.com/s/pcoxq8nv4rorbno/IMG_9446.JPG"
+meta-tag-image-03: 
+meta-tag-image-04: 
