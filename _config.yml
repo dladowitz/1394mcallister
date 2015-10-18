@@ -25,6 +25,7 @@ property-description: Tradecraft is a full time, inperson immersive training pro
 neighboorhood-background-image-url: "http://jacksonsquaresf.com/wp-content/uploads/2014/10/jackson_sq_sign.jpg"
 neighboorhood-name: Jackson Square
 neighboorhood-description: Jackson Square Historic District retains its character as one of the oldest commercial neighborhoods in San Francisco. Though in some cases extensively altered during seismic retrofit, the collection of three story brick buildings found on the narrow streets and alleys offer a bright glimpse into the California Gold Rush that gave San Francisco its start. Buildings on the north side of Jackson between Montgomery and Sansome retain cast iron shutters as protection against fire, but when the city burned, in one case, a warehouses contents turned out to be more significant in saving the building
+# Get GPS Coordinates from http://www.gps-coordinates.net/
 map-longitude: "-122.40023"
 map-latitude: "37.79949"
 
@@ -38,5 +39,5 @@ gallery-image-02: "https://dl.dropboxusercontent.com/s/pcoxq8nv4rorbno/IMG_9446.
 
 meta-tag-image-01: "https://dl.dropboxusercontent.com/s/56cpb9eb72ves83/IMG_9436.JPG"
 meta-tag-image-02: "https://dl.dropboxusercontent.com/s/pcoxq8nv4rorbno/IMG_9446.JPG"
-meta-tag-image-03: 
-meta-tag-image-04: 
+meta-tag-image-03:
+meta-tag-image-04:
