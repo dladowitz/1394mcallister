@@ -19,7 +19,7 @@ author: Captivate Real Estate
 
   <!-- Fonts -->
   <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic"> -->
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>    
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
 
   <!-- Javascript -->
   <script type="text/javascript" src="js/typekit.js"></script>
@@ -95,8 +95,8 @@ author: Captivate Real Estate
 
           // Walkthrough Video
           var url = "{{ site.video-walkthrough-url }}";
-          
-          
+
+
           banner.hide();
           $('<video class="bannerVideo" autoplay="" loop="" preload><source src="' + url + '" type="video/mp4"></video>').insertAfter(banner);
           adjustBanner($('.bannerVideo'), banner);
@@ -157,12 +157,12 @@ author: Captivate Real Estate
         <div class="header-inner">
           <div id="siteTitleWrapper" class="wrapper" data-content-field="site-title">
             <h1 id="siteTitle" class="site-title"><a href="/">{{ site.agent-name }}</a></h1>
-            
+
           </div>
           <!-- comment the linebreak between these two elements because science -->
           <label for="mobileNavToggle" class="mobile-nav-toggle-label"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><label for="mobileNavToggle" class="mobile-nav-toggle-label fixed-nav-toggle-label"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label>
 
-          <!-- comment the linebreak between these two elements because science-->       
+          <!-- comment the linebreak between these two elements because science-->
 
           <div id="headerNav"><div id="mainNavWrapper" class="nav-wrapper" data-content-field="navigation-mainNav">
         <nav id="mainNavigation" data-content-field="navigation-mainNav">
@@ -191,8 +191,8 @@ author: Captivate Real Estate
 
 <main id="page" role="main">
 
-        <!-- comment the linebreak between these two elements because science --> 
-        <!-- comment the linebreak between these two elements because science --> 
+        <!-- comment the linebreak between these two elements because science -->
+        <!-- comment the linebreak between these two elements because science -->
         <div id="content" class="main-content" data-content-field="main-content" data-collection-id="55f1b5bce4b0cc1b9222509b" >
       <!-- Create index sections -->
 
@@ -223,7 +223,7 @@ author: Captivate Real Estate
 
                         <!-- Matterport Embed URL -->
                         <iframe allowfullscreen src="{{ site.matterport-embed-url }}&amp;wmode=opaque" width="1050" data-embed="true" frameborder="0" height="584"></iframe>
-                    
+
                     </div>
                   </div>
                 </div>
@@ -261,7 +261,7 @@ author: Captivate Real Estate
           <h1>
             Purchase Price: {{ site.list-price }}
             <br />
-            <strong>875 sqft</strong>
+            <strong>{{ site.sqft }} sqft</strong>
           </h1>
 
           <!-- Propery Description -->
@@ -425,7 +425,7 @@ author: Captivate Real Estate
                 <div class="row sqs-row">
                   <div class="col sqs-col-12 span-12">
                   <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1410808515393_74279">
-                    
+
                     <!-- Neighboorhood Description -->
                     <div class="sqs-block-content">
                       <p>{{ site.neighboorhood-description }}</p>
@@ -441,9 +441,9 @@ author: Captivate Real Estate
           <div class="sqs-block-content page-map" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);" id="yui_3_17_2_1_1444106537352_1483">
             <div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;" id="yui_3_17_2_1_1444106537352_1482">
               <div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur) 8 8, default;" id="yui_3_17_2_1_1444106537352_1481">
-                
+
                 <div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 378, -5);">
-                
+
                   <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
                     <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
                       <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
@@ -505,10 +505,10 @@ author: Captivate Real Estate
                                     <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6334!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
                                       <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 264px; transition: opacity 200ms ease-out;">
                                         <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2619!3i6335!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: -248px; transition: opacity 200ms ease-out;"><img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6333!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: -248px; transition: opacity 200ms ease-out;"><img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2619!3i6333!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 264px; transition: opacity 200ms ease-out;"><img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6335!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%;" id="yui_3_17_2_1_1444106537352_1480"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 378, -5);"><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
-                                        
+
                                         <!-- Map Location -->
                                         <a target="_blank" href="https://maps.google.com/maps?ll={{ site.latitude }},{{ site.longitude }}&amp;z=14&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;">
-                                        
+
                                           <div style="width: 66px; height: 26px; cursor: pointer;">
                                             <img src="http://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;">
                                           </div>
@@ -540,10 +540,10 @@ author: Captivate Real Estate
                           <div class="banner-thumbnail-wrapper has-description" data-content-field="main-image">
                             <div class="color-overlay"></div>
                             <figure id="thumbnail" class="loading content-fill">
-                              
+
                               <!-- Contact Us Background Image -->
                               <img data-src="{{ site.contact-us-background-image-url }}" data-image="{{ site.contact-us-background-image-url }}" data-image-dimensions="5616x3744" data-image-focal-point="0.5,0.5" alt="IMG_8206.JPG"/>
-                            
+
                             </figure>
                             <div class="desc-wrapper" data-collection-id="55f250a0e4b071d1ddffe28d"><p><strong>Contact Us</strong></p></div>
                           </div>
@@ -571,7 +571,7 @@ author: Captivate Real Estate
                                   </h1>
                                   <h1>
                                     {{ site.agent-phone }}
-                                  </h1> 
+                                  </h1>
 
                                 </div>
                               </div>
@@ -608,7 +608,7 @@ author: Captivate Real Estate
               <div id="siteInfo">
                 <span class="site-address">{{ site.property-full-address }}</span>
               </div>
-              
+
               <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1441904782038" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">Powered by <a target="_blank" href="http://www.captivaterealestate.com">C</a><a target="_blank" href="http://www.captivaterealestate.com">aptivate Real Estate</a></p></div></div></div></div></div>
             </div>
           </footer>

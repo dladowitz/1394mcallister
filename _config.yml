@@ -16,6 +16,7 @@ property-full-address: 855 Front St. San Francisco, CA, 94111, United States
 property-tag-line: "You're Home"
 video-walkthrough-url: "https://dl.dropboxusercontent.com/s/8qbxbznbkwgkx68/650_anderson_walkthrough_2.mp4"
 list-price: $100,000,000
+sqft: 5000
 number-of-beds: 9 Beds
 number-of-baths: 8 Baths # TODO Fix alignment of baths in html
 matterport-embed-url: "https://my.matterport.com/show/?m=chQ3jHCT4Hp"
