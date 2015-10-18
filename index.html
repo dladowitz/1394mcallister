@@ -16,7 +16,6 @@ author: Captivate Real Estate
   <link href="css/ekko-lightbox.css" rel="stylesheet">
   <link href="css/add-on.css" rel="stylesheet">
 
-
   <!-- Fonts -->
   <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic"> -->
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700|Playfair+Display:400,400italic,700italic,700' rel='stylesheet' type='text/css'>
@@ -25,10 +24,6 @@ author: Captivate Real Estate
   <script type="text/javascript" src="js/typekit.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <script type="text/javascript" src="js/site.js&helpers.js&sticky.js"></script>
-
-
-
-
 
   <!-- This is Squarespace. --><!-- zooey-ingles-1zvo -->
   <base href="">
@@ -156,46 +151,54 @@ author: Captivate Real Estate
       <header id="header" class="show-on-scroll" data-offset-el=".index-section" data-offset-behavior="bottom" role="banner">
         <div class="header-inner">
           <div id="siteTitleWrapper" class="wrapper" data-content-field="site-title">
-            <h1 id="siteTitle" class="site-title"><a href="/">{{ site.agent-name }}</a></h1>
-
+            <h1 id="siteTitle" class="site-title">
+              <a href="/">{{ site.agent-name }}</a>
+            </h1>
           </div>
           <!-- comment the linebreak between these two elements because science -->
-          <label for="mobileNavToggle" class="mobile-nav-toggle-label"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label><label for="mobileNavToggle" class="mobile-nav-toggle-label fixed-nav-toggle-label"><div class="top-bar"></div><div class="middle-bar"></div><div class="bottom-bar"></div></label>
-
+          <label for="mobileNavToggle" class="mobile-nav-toggle-label">
+            <div class="top-bar"></div>
+            <div class="middle-bar"></div>
+            <div class="bottom-bar"></div>
+          </label>
+          <label for="mobileNavToggle" class="mobile-nav-toggle-label fixed-nav-toggle-label">
+            <div class="top-bar"></div>
+            <div class="middle-bar"></div>
+            <div class="bottom-bar"></div>
+          </label>
           <!-- comment the linebreak between these two elements because science-->
-
-          <div id="headerNav"><div id="mainNavWrapper" class="nav-wrapper" data-content-field="navigation-mainNav">
-        <nav id="mainNavigation" data-content-field="navigation-mainNav">
-          <div class="index active homepage">
-            <a href="/">
-              Property
-            </a>
+          <div id="headerNav">
+            <div id="mainNavWrapper" class="nav-wrapper" data-content-field="navigation-mainNav">
+              <nav id="mainNavigation" data-content-field="navigation-mainNav">
+                <div class="index active homepage">
+                  <a href="/">
+                    Property
+                  </a>
+                </div>
+              <div class="external">
+                <a href="#neighborhood">
+                  Neighborhood
+                </a>
+              </div>
+              <div class="external">
+                <a href="#contact">
+                  Contact
+                </a>
+              </div>
+            </nav>
           </div>
-          <div class="external">
-            <a href="#neighborhood">
-              Neighborhood
-            </a>
-          </div>
-          <div class="external">
-            <a href="#contact">
-              Contact
-            </a>
-          </div>
-        </nav>
+          <!-- style below blocks out the mobile nav toggle only when nav is loaded -->
+          <style>.mobile-nav-toggle-label { display: inline-block !important; }</style>
+        </div>
       </div>
-      <!-- style below blocks out the mobile nav toggle only when nav is loaded -->
-      <style>.mobile-nav-toggle-label { display: inline-block !important; }</style>
-    </div>
-  </div>
-</header>
+    </header>
 
-<main id="page" role="main">
+    <main id="page" role="main">
+      <!-- comment the linebreak between these two elements because science -->
+      <!-- comment the linebreak between these two elements because science -->
+      <div id="content" class="main-content" data-content-field="main-content" data-collection-id="55f1b5bce4b0cc1b9222509b" >
 
-        <!-- comment the linebreak between these two elements because science -->
-        <!-- comment the linebreak between these two elements because science -->
-        <div id="content" class="main-content" data-content-field="main-content" data-collection-id="55f1b5bce4b0cc1b9222509b" >
       <!-- Create index sections -->
-
       <div id="property" class="index-section" data-url-id="property">
         <div class="promoted-gallery-wrapper"></div>
 
@@ -220,177 +223,198 @@ author: Captivate Real Estate
                   <div class="sqs-block embed-block sqs-block-embed" data-block-json="&#123;&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;html&quot;:&quot;&lt;div id=\&quot;my-iframe\&quot;&gt;&lt;iframe  height=\&quot;584\&quot; width=\&quot;1050\&quot; frameborder=\&quot;0\&quot; allowfullscreen src=\&quot;https://my.matterport.com/show/?m=WaRmuinAmY4\&quot;&gt;&lt;/iframe&gt;\n&lt;/div&gt;&quot;,&quot;resolvedBy&quot;:&quot;manual&quot;,&quot;resolved&quot;:true&#125;" data-block-type="22" id="block-yui_3_17_2_10_1441907369577_8038">
                     <div class="sqs-block-content">
                       <div id="my-iframe">
-
                         <!-- Matterport Embed URL -->
                         <iframe allowfullscreen src="{{ site.matterport-embed-url }}&amp;wmode=opaque" width="1050" data-embed="true" frameborder="0" height="584"></iframe>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Agent Info Section -->
+                  <div class="sqs-block image-block sqs-block-image sqs-col-3 span-3 float float-right" data-block-type="5" id="block-yui_3_17_2_10_1441907369577_13768">
+                    <div class="sqs-block-content">
+                      <div class="image-block-outer-wrapper layout-caption-below ">
+                        <div class="intrinsic" style="max-width:356.0px;">
+                          <div style="padding-bottom:121.62921142578125%;" class="image-block-wrapper   has-aspect-ratio" data-description="&lt;p&gt;&lt;strong style=&quot;color:rgb(31, 37, 38); font-family:europa; font-size:16px; letter-spacing:2px; line-height:1.4em; text-transform:uppercase&quot;&gt;Naomi Lopez&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Coldwell Banker&lt;br /&gt;Cell:&amp;nbsp;415 264 4093&lt;/p&gt;">
+                            <!-- Agent Image  -->
+                            <img src="{{ site.agent-image-url }}" data-image-dimensions="356x433" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f24e20e4b0c0afc4503208" data-type="image" />
+                          </div>
+                          <div class="image-caption-wrapper">
+                            <div class="image-caption">
+                              <p>
+                                <strong style="color:rgb(31, 37, 38); font-family:europa; font-size:16px; letter-spacing:2px; line-height:1.4em; text-transform:uppercase">
+                                  {{ site.agent-name }}
+                                </strong>
+                              </p>
+                              <p>
+                                {{ site.agent-company }}
+                                <br />
+                                Cell: {{ site.agent-phone }}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-20d2d7d07ef691626788">
+                    <div class="sqs-block-content">
+                      <h1>
+                        Purchase Price: {{ site.list-price }}
+                        <br />
+                        <strong>{{ site.sqft }} sqft</strong>
+                      </h1>
+
+                      <!-- Propery Description -->
+                      <p>{{ site.property-description }}</p>
 
                     </div>
                   </div>
-                </div>
+                  <div class="row sqs-row">
+                    <div class="col sqs-col-2 span-2">
+                      <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_30_1441942307387_44722">
+                        <div class="sqs-block-content">
+                          <div class="image-block-outer-wrapper layout-caption-below ">
+                            <div class="intrinsic" style="max-width:117.0px;">
+                              <div style="padding-bottom:60.68376159667969%;" class="image-block-wrapper   " data-description="&lt;h1&gt;4 Bed&lt;/h1&gt;">
+                                <noscript>
+                                  <img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/"  alt="4 Bed"  />
+                                </noscript>
+                                <img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" class="thumb-image" alt="4 Bed" data-src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" data-image="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" data-image-dimensions="117x71" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f256f4e4b0f5b52b4a1449" data-type="image" />
+                              </div>
+                              <div class="image-caption-wrapper bed-bath-icon">
+                                <div class="image-caption">
+                                  <h1>
+                                    {{ site.number-of-beds }}
+                                  </h1>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-            <!-- Agent Info Section -->
-            <div class="sqs-block image-block sqs-block-image sqs-col-3 span-3 float float-right" data-block-type="5" id="block-yui_3_17_2_10_1441907369577_13768">
-              <div class="sqs-block-content">
-                <div class="image-block-outer-wrapper layout-caption-below ">
-              <div class="intrinsic" style="max-width:356.0px;">
-                <div style="padding-bottom:121.62921142578125%;" class="image-block-wrapper   has-aspect-ratio" data-description="&lt;p&gt;&lt;strong style=&quot;color:rgb(31, 37, 38); font-family:europa; font-size:16px; letter-spacing:2px; line-height:1.4em; text-transform:uppercase&quot;&gt;Naomi Lopez&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Coldwell Banker&lt;br /&gt;Cell:&amp;nbsp;415 264 4093&lt;/p&gt;">
-
-                  <!-- Agent Image  -->
-                  <img src="{{ site.agent-image-url }}" data-image-dimensions="356x433" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f24e20e4b0c0afc4503208" data-type="image" />
-                </div>
-                <div class="image-caption-wrapper">
-                  <div class="image-caption">
-                    <p>
-                      <strong style="color:rgb(31, 37, 38); font-family:europa; font-size:16px; letter-spacing:2px; line-height:1.4em; text-transform:uppercase">
-                        {{ site.agent-name }}
-                      </strong>
-                    </p>
-                    <p>
-                      {{ site.agent-company }}
-                      <br />
-                      Cell: {{ site.agent-phone }}
-                    </p>
+                    <div class="col sqs-col-2 span-2">
+                      <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_10_1441907369577_43072">
+                        <div class="sqs-block-content">
+                        <div class="image-block-outer-wrapper layout-caption-below ">
+                          <div class="intrinsic" style="max-width:117.0px;">
+                            <div style="padding-bottom:60.68376159667969%;" class="image-block-wrapper   has-aspect-ratio" data-description="&lt;h1&gt;&amp;nbsp; &amp;nbsp;4 Bath&lt;/h1&gt;">
+                              <noscript><img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/"  alt="   4 Bath"  /></noscript><img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" xclass="thumb-image" alt="   4 Bath" data-src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" data-image="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" data-image-dimensions="117x71" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f2561be4b0f5b52b4a112d" data-type="image" />
+                            </div>
+                            <div class="image-caption-wrapper bed-bath-icon">
+                              <div class="image-caption">
+                                <h1>&nbsp; &nbsp;{{ site.number-of-baths }}</h1>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col sqs-col-8 span-8"></div>
                   </div>
+
+                  <!-- Photo Gallery Section-->
+                  <div class="sqs-row">
+                    <div class="col-md-12">
+                      <div class="row gallery-row">
+                        <a href="{{ site.gallery-image-01 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="{{ site.gallery-image-01 }}" class="img-responsive">
+                        </a>
+                        <a href="{{ site.gallery-image-02 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="{{ site.gallery-image-02 }}" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/oqirnx8ew1x44s0/IMG_9449.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/oqirnx8ew1x44s0/IMG_9449.JPG?dl=0" class="img-responsive">
+                        </a>
+                      </div>
+                      <div class="row gallery-row">
+                        <a href="https://dl.dropboxusercontent.com/s/kfhcq0x3h0qrbg7/IMG_9451.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/kfhcq0x3h0qrbg7/IMG_9451.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/pimv4tlsw4g1pki/IMG_9454.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/pimv4tlsw4g1pki/IMG_9454.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/6vy44y40nv7cdyy/IMG_9471.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/6vy44y40nv7cdyy/IMG_9471.JPG?dl=0" class="img-responsive">
+                        </a>
+                      </div>
+                      <div class="row gallery-row">
+                        <a href="https://dl.dropboxusercontent.com/s/f75czgi8uc30tew/IMG_9474.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/f75czgi8uc30tew/IMG_9474.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/n08usfdyaj018pn/IMG_9490.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/n08usfdyaj018pn/IMG_9490.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/ray4c1o3au05jtq/IMG_9493.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/ray4c1o3au05jtq/IMG_9493.JPG?dl=0" class="img-responsive">
+                        </a>
+                      </div>
+                      <div class="row gallery-row">
+                        <a href="https://dl.dropboxusercontent.com/s/rirhfq4gx66w4lc/IMG_9500.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/rirhfq4gx66w4lc/IMG_9500.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/nr7zbgx4ugsrjd2/IMG_9502.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/nr7zbgx4ugsrjd2/IMG_9502.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/gzon31567nypyps/IMG_9505.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/gzon31567nypyps/IMG_9505.JPG?dl=0" class="img-responsive">
+                        </a>
+                      </div>
+                      <div class="row gallery-row">
+                        <a href="https://dl.dropboxusercontent.com/s/04zcv6rsouxsy03/IMG_9512.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/04zcv6rsouxsy03/IMG_9512.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/cgfsi80to136zlk/IMG_9517.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/cgfsi80to136zlk/IMG_9517.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/qnkqfj275vnn7nf/IMG_9528.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/qnkqfj275vnn7nf/IMG_9528.JPG?dl=0" class="img-responsive">
+                        </a>
+                      </div>
+                      <div class="row gallery-row">
+                        <a href="https://dl.dropboxusercontent.com/s/xx03cxd6d77hhgq/IMG_9533.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/xx03cxd6d77hhgq/IMG_9533.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/ad0z5dc8tjjf6o8/IMG_9539.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/ad0z5dc8tjjf6o8/IMG_9539.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/2bo5318bg1kt9vd/IMG_9549.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/2bo5318bg1kt9vd/IMG_9549.JPG?dl=0" class="img-responsive">
+                        </a>
+                      </div>
+                      <div class="row gallery-row">
+                        <a href="https://dl.dropboxusercontent.com/s/scupv62v87rzbqo/IMG_9553.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/scupv62v87rzbqo/IMG_9553.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/7mm9hgbmuj1db2o/IMG_9564.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/7mm9hgbmuj1db2o/IMG_9564.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/n3l0v5c8u2usx6b/IMG_9580.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/n3l0v5c8u2usx6b/IMG_9580.JPG?dl=0" class="img-responsive">
+                        </a>
+                      </div>
+                      <div class="row gallery-row">
+                        <a href="https://dl.dropboxusercontent.com/s/opktns0a49cuw2o/IMG_9582.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/opktns0a49cuw2o/IMG_9582.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/3stsgmsdm6amfaa/IMG_9587.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/3stsgmsdm6amfaa/IMG_9587.JPG?dl=0" class="img-responsive">
+                        </a>
+                        <a href="https://dl.dropboxusercontent.com/s/hz7yv6wr9f82bn8/IMG_9604.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
+                          <img src="https://dl.dropboxusercontent.com/s/hz7yv6wr9f82bn8/IMG_9604.JPG?dl=0" class="img-responsive">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Gallery -->
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-20d2d7d07ef691626788">
-        <div class="sqs-block-content">
-          <h1>
-            Purchase Price: {{ site.list-price }}
-            <br />
-            <strong>{{ site.sqft }} sqft</strong>
-          </h1>
-
-          <!-- Propery Description -->
-          <p>{{ site.property-description }}</p>
-
-          </div></div><div class="row sqs-row"><div class="col sqs-col-2 span-2"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_30_1441942307387_44722"><div class="sqs-block-content">
-          <div class="image-block-outer-wrapper layout-caption-below ">
-            <div class="intrinsic" style="max-width:117.0px;">
-              <div style="padding-bottom:60.68376159667969%;" class="image-block-wrapper   " data-description="&lt;h1&gt;4 Bed&lt;/h1&gt;">
-                <noscript><img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/"  alt="4 Bed"  /></noscript><img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" class="thumb-image" alt="4 Bed" data-src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" data-image="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" data-image-dimensions="117x71" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f256f4e4b0f5b52b4a1449" data-type="image" />
-              </div>
-              <div class="image-caption-wrapper bed-bath-icon">
-                <div class="image-caption"><h1>{{ site.number-of-beds }}</h1></div>
-              </div>
-            </div>
-          </div>
-        </div></div></div><div class="col sqs-col-2 span-2"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_10_1441907369577_43072"><div class="sqs-block-content">
-        <div class="image-block-outer-wrapper layout-caption-below ">
-          <div class="intrinsic" style="max-width:117.0px;">
-            <div style="padding-bottom:60.68376159667969%;" class="image-block-wrapper   has-aspect-ratio" data-description="&lt;h1&gt;&amp;nbsp; &amp;nbsp;4 Bath&lt;/h1&gt;">
-              <noscript><img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/"  alt="   4 Bath"  /></noscript><img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" xclass="thumb-image" alt="   4 Bath" data-src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" data-image="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" data-image-dimensions="117x71" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f2561be4b0f5b52b4a112d" data-type="image" />
-            </div>
-            <div class="image-caption-wrapper bed-bath-icon">
-              <div class="image-caption"><h1>&nbsp; &nbsp;{{ site.number-of-baths }}</h1></div>
-            </div>
-          </div>
-        </div>
-      </div></div></div><div class="col sqs-col-8 span-8"></div></div>
-
-      <!-- Photo Gallery -->
-      <div class="sqs-row">
-        <div class="col-md-12">
-          <div class="row gallery-row">
-            <a href="{{ site.gallery-image-01 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="{{ site.gallery-image-01 }}" class="img-responsive">
-            </a>
-            <a href="{{ site.gallery-image-02 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="{{ site.gallery-image-02 }}" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/oqirnx8ew1x44s0/IMG_9449.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/oqirnx8ew1x44s0/IMG_9449.JPG?dl=0" class="img-responsive">
-            </a>
-          </div>
-          <div class="row gallery-row">
-            <a href="https://dl.dropboxusercontent.com/s/kfhcq0x3h0qrbg7/IMG_9451.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/kfhcq0x3h0qrbg7/IMG_9451.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/pimv4tlsw4g1pki/IMG_9454.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/pimv4tlsw4g1pki/IMG_9454.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/6vy44y40nv7cdyy/IMG_9471.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/6vy44y40nv7cdyy/IMG_9471.JPG?dl=0" class="img-responsive">
-            </a>
-          </div>
-          <div class="row gallery-row">
-            <a href="https://dl.dropboxusercontent.com/s/f75czgi8uc30tew/IMG_9474.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/f75czgi8uc30tew/IMG_9474.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/n08usfdyaj018pn/IMG_9490.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/n08usfdyaj018pn/IMG_9490.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/ray4c1o3au05jtq/IMG_9493.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/ray4c1o3au05jtq/IMG_9493.JPG?dl=0" class="img-responsive">
-            </a>
-          </div>
-          <div class="row gallery-row">
-            <a href="https://dl.dropboxusercontent.com/s/rirhfq4gx66w4lc/IMG_9500.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/rirhfq4gx66w4lc/IMG_9500.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/nr7zbgx4ugsrjd2/IMG_9502.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/nr7zbgx4ugsrjd2/IMG_9502.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/gzon31567nypyps/IMG_9505.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/gzon31567nypyps/IMG_9505.JPG?dl=0" class="img-responsive">
-            </a>
-          </div>
-          <div class="row gallery-row">
-            <a href="https://dl.dropboxusercontent.com/s/04zcv6rsouxsy03/IMG_9512.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/04zcv6rsouxsy03/IMG_9512.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/cgfsi80to136zlk/IMG_9517.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/cgfsi80to136zlk/IMG_9517.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/qnkqfj275vnn7nf/IMG_9528.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/qnkqfj275vnn7nf/IMG_9528.JPG?dl=0" class="img-responsive">
-            </a>
-          </div>
-          <div class="row gallery-row">
-            <a href="https://dl.dropboxusercontent.com/s/xx03cxd6d77hhgq/IMG_9533.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/xx03cxd6d77hhgq/IMG_9533.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/ad0z5dc8tjjf6o8/IMG_9539.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/ad0z5dc8tjjf6o8/IMG_9539.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/2bo5318bg1kt9vd/IMG_9549.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/2bo5318bg1kt9vd/IMG_9549.JPG?dl=0" class="img-responsive">
-            </a>
-          </div>
-          <div class="row gallery-row">
-            <a href="https://dl.dropboxusercontent.com/s/scupv62v87rzbqo/IMG_9553.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/scupv62v87rzbqo/IMG_9553.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/7mm9hgbmuj1db2o/IMG_9564.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/7mm9hgbmuj1db2o/IMG_9564.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/n3l0v5c8u2usx6b/IMG_9580.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/n3l0v5c8u2usx6b/IMG_9580.JPG?dl=0" class="img-responsive">
-            </a>
-          </div>
-          <div class="row gallery-row">
-            <a href="https://dl.dropboxusercontent.com/s/opktns0a49cuw2o/IMG_9582.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/opktns0a49cuw2o/IMG_9582.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/3stsgmsdm6amfaa/IMG_9587.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/3stsgmsdm6amfaa/IMG_9587.JPG?dl=0" class="img-responsive">
-            </a>
-            <a href="https://dl.dropboxusercontent.com/s/hz7yv6wr9f82bn8/IMG_9604.JPG?dl=0" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-              <img src="https://dl.dropboxusercontent.com/s/hz7yv6wr9f82bn8/IMG_9604.JPG?dl=0" class="img-responsive">
-            </a>
           </div>
         </div>
       </div>
-      <!-- Gallery -->
-
-
-    </div></div></div>
-  </div>
-</div>
-</div>
 
 <!-- Neighborhood -->
 <div id="neighborhood" class="index-section" data-url-id="neighborhood">
@@ -408,24 +432,23 @@ author: Captivate Real Estate
           <strong>Neighborhood</strong>
         </p>
       </div>
-  </div>
+    </div>
 
-  <div class="index-section-wrapper page-content">
-    <div class="content-inner has-content" data-content-field="main-content">
-      <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1441905044142" id="page-55f1b5dae4b0efe7c87bb686">
-        <div class="row sqs-row">
-          <div class="col sqs-col-12 span-12">
-            <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-34cb7df891b026cf460e">
-              <div class="sqs-block-content">
+    <div class="index-section-wrapper page-content">
+      <div class="content-inner has-content" data-content-field="main-content">
+        <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1441905044142" id="page-55f1b5dae4b0efe7c87bb686">
+          <div class="row sqs-row">
+            <div class="col sqs-col-12 span-12">
+              <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-34cb7df891b026cf460e">
+                <div class="sqs-block-content">
 
-                <!-- Neighborhood Name -->
-                <h1 class="text-align-center">{{ site.neighboorhood-name }}</h1>
-                  </div>
+                  <!-- Neighborhood Name -->
+                  <h1 class="text-align-center">{{ site.neighboorhood-name }}</h1>
                 </div>
-                <div class="row sqs-row">
-                  <div class="col sqs-col-12 span-12">
+              </div>
+              <div class="row sqs-row">
+                <div class="col sqs-col-12 span-12">
                   <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1410808515393_74279">
-
                     <!-- Neighboorhood Description -->
                     <div class="sqs-block-content">
                       <p>{{ site.neighboorhood-description }}</p>
@@ -435,146 +458,205 @@ author: Captivate Real Estate
                 </div>
                 <div class="col sqs-col-0 span-0"></div>
               </div>
-
-
-        <div class="sqs-block map-block sqs-block-map sized vsize-12" data-block-json="{&quot;location&quot;:{&quot;mapLat&quot;:{{ site.map-latitude }},&quot;mapLng&quot;:{{ site.map-longitude }},&quot;mapZoom&quot;:12,&quot;addressTitle&quot;:&quot;{{ site.neighboorhood-name}}&quot;,&quot;addressLine1&quot;:&quot;{{ site.property-street-address }}&quot;,&quot;addressLine2&quot;:&quot;San Francisco, CA, 94110&quot;,&quot;addressCountry&quot;:&quot;United States&quot;,&quot;markerLat&quot;:{{ site.longitude }},&quot;markerLng&quot;:{{ site.longitude }} },&quot;vSize&quot;:12,&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;style&quot;:2,&quot;labels&quot;:true,&quot;terrain&quot;:false,&quot;controls&quot;:false}" data-block-type="4" id="block-yui_3_17_2_1_1410539766946_102880">
-          <div class="sqs-block-content page-map" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);" id="yui_3_17_2_1_1444106537352_1483">
-            <div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;" id="yui_3_17_2_1_1444106537352_1482">
-              <div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur) 8 8, default;" id="yui_3_17_2_1_1444106537352_1481">
-
-                <div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 378, -5);">
-
-                  <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
-                    <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
-                      <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: 8px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: 8px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: -248px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: -248px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: 264px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: 264px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 8px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 8px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 264px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: -248px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: -248px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 264px;"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div>
-                  <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div>
-                  <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
-                    <div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
-                      <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -143px; top: 8px;">
-                          <canvas draggable="false" height="256" width="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas>
-                        </div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 113px; top: 8px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 113px; top: -248px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -143px; top: -248px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -143px; top: 264px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 113px; top: 264px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -399px; top: 8px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 369px; top: 8px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -399px; top: 264px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 369px; top: -248px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -399px; top: -248px;"></div>
-                        <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 369px; top: 264px;"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
-                    <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
-                      <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: 8px; transition: opacity 200ms ease-out;">
-                        <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2620!3i6334!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
-                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: 8px; transition: opacity 200ms ease-out;">
-                          <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2621!3i6334!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
-                          <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: -248px; transition: opacity 200ms ease-out;">
-                            <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2621!3i6333!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
-                            <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: -248px; transition: opacity 200ms ease-out;">
-                              <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2620!3i6333!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;">
+              <div class="sqs-block map-block sqs-block-map sized vsize-12" data-block-json="{&quot;location&quot;:{&quot;mapLat&quot;:{{ site.map-latitude }},&quot;mapLng&quot;:{{ site.map-longitude }},&quot;mapZoom&quot;:12,&quot;addressTitle&quot;:&quot;{{ site.neighboorhood-name}}&quot;,&quot;addressLine1&quot;:&quot;{{ site.property-street-address }}&quot;,&quot;addressLine2&quot;:&quot;San Francisco, CA, 94110&quot;,&quot;addressCountry&quot;:&quot;United States&quot;,&quot;markerLat&quot;:{{ site.longitude }},&quot;markerLng&quot;:{{ site.longitude }} },&quot;vSize&quot;:12,&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;style&quot;:2,&quot;labels&quot;:true,&quot;terrain&quot;:false,&quot;controls&quot;:false}" data-block-type="4" id="block-yui_3_17_2_1_1410539766946_102880">
+                <div class="sqs-block-content page-map" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);" id="yui_3_17_2_1_1444106537352_1483">
+                  <div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;" id="yui_3_17_2_1_1444106537352_1482">
+                    <div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur) 8 8, default;" id="yui_3_17_2_1_1444106537352_1481">
+                      <div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 378, -5);">
+                        <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
+                          <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                            <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: 8px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: 8px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: -248px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: -248px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: 264px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: 264px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 8px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 8px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 264px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: -248px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: -248px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 264px;"></div>
                             </div>
-                            <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: 264px; transition: opacity 200ms ease-out;">
-                              <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2620!3i6335!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
-                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: 264px; transition: opacity 200ms ease-out;">
-                                <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2621!3i6335!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
-                                <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 8px; transition: opacity 200ms ease-out;">
-                                  <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2619!3i6334!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
-                                  <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 8px; transition: opacity 200ms ease-out;">
-                                    <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6334!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
-                                      <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 264px; transition: opacity 200ms ease-out;">
-                                        <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2619!3i6335!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: -248px; transition: opacity 200ms ease-out;"><img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6333!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: -248px; transition: opacity 200ms ease-out;"><img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2619!3i6333!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 264px; transition: opacity 200ms ease-out;"><img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6335!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%;" id="yui_3_17_2_1_1444106537352_1480"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 378, -5);"><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
+                          </div>
+                        </div>
+                        <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div>
+                        <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div>
+                        <div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
+                          <div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
+                            <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -143px; top: 8px;">
+                                <canvas draggable="false" height="256" width="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas>
+                              </div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 113px; top: 8px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 113px; top: -248px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -143px; top: -248px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -143px; top: 264px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 113px; top: 264px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -399px; top: 8px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 369px; top: 8px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -399px; top: 264px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 369px; top: -248px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -399px; top: -248px;"></div>
+                              <div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 369px; top: 264px;"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                          <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
+                            <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: 8px; transition: opacity 200ms ease-out;">
+                              <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2620!3i6334!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+                              <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: 8px; transition: opacity 200ms ease-out;">
+                                <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2621!3i6334!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+                                <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: -248px; transition: opacity 200ms ease-out;">
+                                  <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2621!3i6333!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+                                  <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: -248px; transition: opacity 200ms ease-out;">
+                                    <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2620!3i6333!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                                  </div>
+                                  <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -143px; top: 264px; transition: opacity 200ms ease-out;">
+                                    <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2620!3i6335!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+                                    <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 113px; top: 264px; transition: opacity 200ms ease-out;">
+                                      <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2621!3i6335!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+                                      <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 8px; transition: opacity 200ms ease-out;">
+                                        <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2619!3i6334!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+                                        <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 8px; transition: opacity 200ms ease-out;">
+                                          <img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6334!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+                                          <div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: 264px; transition: opacity 200ms ease-out;">
+                                            <img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2619!3i6335!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: -248px; transition: opacity 200ms ease-out;"><img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6333!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -399px; top: -248px; transition: opacity 200ms ease-out;"><img src="http://mt1.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2619!3i6333!2m3!1e0!2sm!3i323248985!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 369px; top: 264px; transition: opacity 200ms ease-out;"><img src="http://mt0.googleapis.com/vt?pb=!1m4!1m3!1i14!2i2622!3i6335!2m3!1e0!2sm!3i323280660!3m14!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHAubDo1MSxzLnQ6MnxwLnY6b2ZmLHMudDo1MXxwLmc6Mi41MSxzLnQ6NTB8cC5nOjEuOSxzLnQ6NnxwLmc6MS4zNixzLnQ6NDl8cC5nOjEuMzMscy50OjEwNTd8cC52OnNpbXBsaWZpZWQscy50OjEwNTh8cC52OnNpbXBsaWZpZWQscy50OjR8cC5nOjEuMnxwLmg6IzAwMzNmZixzLnQ6MjB8cy5lOmx8cC5nOjEuNDMscy50OjZ8cC5sOi00NyxwLnM6LTEwMCxzLnQ6NTB8cy5lOmx8cC5sOjIzLHMuZTpsfHAudjpvZmYscy5lOmx8cC52Om9u!4e0" draggable="false" style="width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%;" id="yui_3_17_2_1_1444106537352_1480"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 378, -5);"><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;">
 
-                                        <!-- Map Location -->
-                                        <a target="_blank" href="https://maps.google.com/maps?ll={{ site.latitude }},{{ site.longitude }}&amp;z=14&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;">
+                                              <!-- Map Location -->
+                                              <a target="_blank" href="https://maps.google.com/maps?ll={{ site.latitude }},{{ site.longitude }}&amp;z=14&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;">
 
-                                          <div style="width: 66px; height: 26px; cursor: pointer;">
-                                            <img src="http://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                                                <div style="width: 66px; height: 26px; cursor: pointer;">
+                                                  <img src="http://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                                                </div>
+                                              </a>
+                                            </div>
+                                            <div style="padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 291px; top: 114px; background-color: white;">
+                                              <div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div>
+                                              <div style="font-size: 13px;">Map data ©2015 Google</div>
+                                              <div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;">
+                                                <img src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                                              </div>
+                                            </div>
+                                            <div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 178px; bottom: 0px; width: 130px;">
+                                              <div draggable="false" class="gm-style-cc" style="-webkit-user-select: none;">
+                                                <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                  <div style="width: 1px;"></div>
+                                                  <div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div>
+                                                </div>
+                                                <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;">
+                                                  <a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a>
+                                                  <span style="">Map data ©2015 Google</span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;">
+                                              <div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2015 Google</div>
+                                            </div>
+                                            <div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; -webkit-user-select: none; position: absolute; right: 102px; bottom: 0px;">
+                                              <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                <div style="width: 1px;"></div>
+                                                <div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div>
+                                              </div>
+                                              <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;">
+                                                <a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a>
+                                              </div>
+                                            </div>
+                                            <div draggable="false" class="gm-style-cc" style="-webkit-user-select: none; position: absolute; right: 0px; bottom: 0px;">
+                                              <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                                                <div style="width: 1px;"></div>
+                                                <div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div>
+                                              </div>
+                                              <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;">
+                                                <a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@{{ site.latitude }},{{ site.longitude }},14z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a>
+                                              </div>
+                                            </div>
                                           </div>
-                                        </a>
-                                      </div>
-                                    <div style="padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 291px; top: 114px; background-color: white;">
-                                      <div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div>
-                                      <div style="font-size: 13px;">Map data ©2015 Google</div>
-                                      <div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;">
-                                        <img src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;">
+                                        </div>
                                       </div>
                                     </div>
-                                  <div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 178px; bottom: 0px; width: 130px;">
-                                <div draggable="false" class="gm-style-cc" style="-webkit-user-select: none;">
-                              <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
-                            <div style="width: 1px;"></div>
-                            <div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div>
-                          </div>
-                          <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2015 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2015 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; -webkit-user-select: none; position: absolute; right: 102px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><div draggable="false" class="gm-style-cc" style="-webkit-user-select: none; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right;"><a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@{{ site.latitude }},{{ site.longitude }},14z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div></div></div></div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
+    <div id="contact" class="index-section" data-url-id="contact">
+      <div class="promoted-gallery-wrapper"></div>
+      <div class="banner-thumbnail-wrapper has-description" data-content-field="main-image">
+        <div class="color-overlay"></div>
+        <figure id="thumbnail" class="loading content-fill">
 
-                        <div id="contact" class="index-section" data-url-id="contact">
-                          <div class="promoted-gallery-wrapper"></div>
-                          <div class="banner-thumbnail-wrapper has-description" data-content-field="main-image">
-                            <div class="color-overlay"></div>
-                            <figure id="thumbnail" class="loading content-fill">
+          <!-- Contact Us Background Image -->
+          <img data-src="{{ site.contact-us-background-image-url }}" data-image="{{ site.contact-us-background-image-url }}" data-image-dimensions="5616x3744" data-image-focal-point="0.5,0.5" alt="IMG_8206.JPG"/>
 
-                              <!-- Contact Us Background Image -->
-                              <img data-src="{{ site.contact-us-background-image-url }}" data-image="{{ site.contact-us-background-image-url }}" data-image-dimensions="5616x3744" data-image-focal-point="0.5,0.5" alt="IMG_8206.JPG"/>
+        </figure>
+        <div class="desc-wrapper" data-collection-id="55f250a0e4b071d1ddffe28d"><p><strong>Contact Us</strong></p></div>
+      </div>
+      <div class="index-section-wrapper page-content">
+        <div class="content-inner has-content" data-content-field="main-content">
+          <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1441944877147" id="page-55f1c0b3e4b0512272bbdbb2">
+            <div class="row sqs-row">
+              <div class="col sqs-col-12 span-12">
+                <div class="row sqs-row">
+                  <div class="col sqs-col-4 span-4">
+                    <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-dc7a788e4d471a84bd90">
+                      <div class="sqs-block-content">
+                        <h1>Let's Talk</h1>
+                        <p>Let us know what you are looking for&nbsp;</p>
+                      </div>
+                    </div>
+                    <div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" data-block-type="54" id="block-yui_3_17_2_1_1410978958748_11721">
+                      <div class="sqs-block-content">
+                        <nav class="sqs-svg-icon--list social-icon-alignment-left social-icons-color-black social-icons-size-small social-icons-shape-circle social-icons-style-knockout"></nav>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col sqs-col-8 span-8">
+                    <div class="sqs-block form-block sqs-block-form" data-block-type="9" id="block-e2c45e2ab7f3bad09d65">
+                    <div class="sqs-block-content">
+                      <h1>
+                        {{ site.agent-name }}
+                      </h1>
+                      <h1>
+                        {{ site.agent-phone }}
+                      </h1>
 
-                            </figure>
-                            <div class="desc-wrapper" data-collection-id="55f250a0e4b071d1ddffe28d"><p><strong>Contact Us</strong></p></div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- comment the linebreak between these two elements because science -->
+
+          </main>
+
+          <div id="preFooter">
+            <div class="pre-footer-inner">
+              <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Pre-Footer Content" data-type="block-field" data-updated-on="1441951734649" id="preFooterBlocks">
+                <div class="row sqs-row">
+                  <div class="col sqs-col-12 span-12">
+                    <div class="row sqs-row">
+                      <div class="col sqs-col-8 span-8">
+                        <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1410979096848_3228">
+                          <div class="sqs-block-content">
+                            <h1>Your new home awaits.</h1>
                           </div>
-
-                          <div class="index-section-wrapper page-content">
-                            <div class="content-inner has-content" data-content-field="main-content">
-                              <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1441944877147" id="page-55f1c0b3e4b0512272bbdbb2"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="row sqs-row"><div class="col sqs-col-4 span-4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-dc7a788e4d471a84bd90">
-
-                                <div class="sqs-block-content">
-                                  <h1>Let's Talk</h1>
-                                  <p>Let us know what you are looking for&nbsp;</p>
-                                </div>
-                              </div>
-                              <div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" data-block-type="54" id="block-yui_3_17_2_1_1410978958748_11721">
-                                <div class="sqs-block-content">
-                                  <nav class="sqs-svg-icon--list social-icon-alignment-left social-icons-color-black social-icons-size-small social-icons-shape-circle social-icons-style-knockout"></nav>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col sqs-col-8 span-8">
-                              <div class="sqs-block form-block sqs-block-form" data-block-type="9" id="block-e2c45e2ab7f3bad09d65">
-                                <div class="sqs-block-content">
-                                  <h1>
-                                    {{ site.agent-name }}
-                                  </h1>
-                                  <h1>
-                                    {{ site.agent-phone }}
-                                  </h1>
-
-                                </div>
-                              </div>
+                        </div>
+                      </div>
+                      <div class="col sqs-col-4 span-4">
+                        <div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1410979096848_6610">
+                          <div class="sqs-block-content">
+                            <div class="sqs-block-button-container--right">
+                              <!-- Agent Button -->
+                              <a href="{{ site.agent-website }}" class="sqs-block-button-element--small sqs-block-button-element">{{ site.agent-button-name-phone }}</a>
                             </div>
                           </div>
                         </div>
@@ -584,101 +666,70 @@ author: Captivate Real Estate
                 </div>
               </div>
             </div>
-            <!-- comment the linebreak between these two elements because science -->
-
-          </main>
-
-          <div id="preFooter">
-            <div class="pre-footer-inner">
-              <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Pre-Footer Content" data-type="block-field" data-updated-on="1441951734649" id="preFooterBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="row sqs-row"><div class="col sqs-col-8 span-8"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1410979096848_3228"><div class="sqs-block-content"><h1>Your new home awaits.</h1></div></div></div><div class="col sqs-col-4 span-4"><div class="sqs-block button-block sqs-block-button" data-block-type="53" id="block-yui_3_17_2_1_1410979096848_6610"><div class="sqs-block-content">
-              <div class="sqs-block-button-container--right">
-
-                <!-- Agent Button -->
-                <a href="{{ site.agent-website }}" class="sqs-block-button-element--small sqs-block-button-element">{{ site.agent-button-name-phone }}</a>
-              </div></div></div></div></div></div></div></div>
-            </div>
           </div>
 
           <footer id="footer" role="contentinfo">
             <div class="footer-inner">
               <div class="nav-wrapper back-to-top-nav"><nav><div class="back-to-top"><a href="#header">Back to Top</a></div></nav></div>
-
-
               <!-- Footer Property Address -->
               <div id="siteInfo">
                 <span class="site-address">{{ site.property-full-address }}</span>
               </div>
-
               <div class="sqs-layout sqs-grid-12 columns-12" data-layout-label="Footer Content" data-type="block-field" data-updated-on="1441904782038" id="footerBlocks"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-713fe491a2c303b33937"><div class="sqs-block-content"><p class="text-align-center">Powered by <a target="_blank" href="http://www.captivaterealestate.com">C</a><a target="_blank" href="http://www.captivaterealestate.com">aptivate Real Estate</a></p></div></div></div></div></div>
             </div>
           </footer>
-
         </div>
-
-
-
-
 
         <script type="text/javascript" data-sqs-type="imageloader-bootstraper">(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap(); }})();</script>
         <script>Squarespace.afterBodyLoad(Y);</script>
-
-
         <script src="http://code.jquery.com/jquery.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="js/ekko-lightbox.js"></script>
         <script type="text/javascript">
           $(document).ready(function ($) {
-            // delegate calls to data-toggle="lightbox"
-            $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
-              event.preventDefault();
-              return $(this).ekkoLightbox({
-                onShown: function() {
-                  if (window.console) {
-                    return console.log('Checking our the events huh?');
-                  }
-                },
-                onNavigate: function(direction, itemIndex) {
-                  if (window.console) {
-                    return console.log('Navigating '+direction+'. Current item: '+itemIndex);
-                  }
+          // delegate calls to data-toggle="lightbox"
+          $(document).delegate('*[data-toggle="lightbox"]:not([data-gallery="navigateTo"])', 'click', function(event) {
+            event.preventDefault();
+            return $(this).ekkoLightbox({
+              onShown: function() {
+                if (window.console) {
+                  return console.log('Checking our the events huh?');
                 }
-              });
+              },
+              onNavigate: function(direction, itemIndex) {
+                if (window.console) {
+                  return console.log('Navigating '+direction+'. Current item: '+itemIndex);
+                }
+              }
             });
+          });
 
-            //Programatically call
-            $('#open-image').click(function (e) {
-              e.preventDefault();
-              $(this).ekkoLightbox();
+          //Programatically call
+          $('#open-image').click(function (e) {
+            e.preventDefault();
+            $(this).ekkoLightbox();
+          });
+          $('#open-youtube').click(function (e) {
+            e.preventDefault();
+            $(this).ekkoLightbox();
+          });
+
+          // navigateTo
+          $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
+            event.preventDefault();
+            return $(this).ekkoLightbox({
+              onShown: function() {
+                var a = this.modal_content.find('.modal-footer a');
+                if(a.length > 0) {
+                  a.click(function(e) {
+                    e.preventDefault();
+                    this.navigateTo(2);
+                  }.bind(this));
+                }
+              }
             });
-            $('#open-youtube').click(function (e) {
-              e.preventDefault();
-              $(this).ekkoLightbox();
-            });
-
-    // navigateTo
-    $(document).delegate('*[data-gallery="navigateTo"]', 'click', function(event) {
-      event.preventDefault();
-      return $(this).ekkoLightbox({
-        onShown: function() {
-
-          var a = this.modal_content.find('.modal-footer a');
-          if(a.length > 0) {
-
-            a.click(function(e) {
-
-              e.preventDefault();
-              this.navigateTo(2);
-
-            }.bind(this));
-
-          }
-
-        }
-      });
-    });
-
-
-  });
-</script>
-</body>
+          });
+        });
+        </script>
+  </body>
 </html>
