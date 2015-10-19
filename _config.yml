@@ -7,38 +7,40 @@ meta-tag-image-03:
 meta-tag-image-04:
 
 # Domain
-domain: http://855front.captivaterealestate.com
+domain: http://www.AlamoSqCondo.com
 
 # Agent Info
-agent-name: Marshall Darr
-agent-phone: 408 867 5309
-agent-image-url: "https://dl.dropboxusercontent.com/s/5ae9oc5q8vuj230/marshall.jpg?dl=0"
-agent-company: Captivate Real Estate
-agent-button-name-phone: "Marshall: 408 867 5309"
+agent-name: Naomi Lempert Lopez
+agent-phone: 415 264 4093
+agent-image-url: "http://static1.squarespace.com/static/552ec696e4b022da6171df15/t/55b910efe4b0ebf4ba6d1e5f/1438191860449/?format=500w"
+agent-company: Coldwell Banker
+agent-license: "BRE #01274031"
+agent-logo: "images/Naomi-Logo.png"
+agent-button-name-phone: "Naomi: 415 264 4093"
 
 # Property Info
-property-street-address: 855 Front St
-property-full-address: 855 Front St. San Francisco, CA, 94111, United States
+property-street-address: 1394 McAllister
+property-full-address: 1394 McAllister. San Francisco, CA, 94115, United States
 property-tag-line: "You're Home"
 video-walkthrough-url: "https://dl.dropboxusercontent.com/s/8qbxbznbkwgkx68/650_anderson_walkthrough_2.mp4"
-list-price: $100,000,000
-sqft: 5000
-number-of-beds: 9 Beds
-number-of-baths: 8 Baths # TODO Fix alignment of baths in html
+list-price: $??,000
+sqft: 2300
+number-of-beds: 3 Beds
+number-of-baths: 2.5 Baths # TODO Fix alignment of baths in html
 matterport-embed-url: "https://my.matterport.com/show/?m=chQ3jHCT4Hp"
-property-description: Tradecraft is a full time, inperson immersive training program for people who want to work in startups. The program has been designed by industry leading experts to ensure that you graduate with both the depth and breadth of knowledge you’ll need to make meaningful contributions on your first day at a high growth startup. Once you select your vertical focus you will work with a large group of world class mentors and a small group of inspiring peers to learn new skills while doing real work for real companies.
+property-description: Property Description here
 
 # Neighboorhood
-neighboorhood-background-image-url: "http://jacksonsquaresf.com/wp-content/uploads/2014/10/jackson_sq_sign.jpg"
-neighboorhood-name: Jackson Square
-neighboorhood-description: Jackson Square Historic District retains its character as one of the oldest commercial neighborhoods in San Francisco. Though in some cases extensively altered during seismic retrofit, the collection of three story brick buildings found on the narrow streets and alleys offer a bright glimpse into the California Gold Rush that gave San Francisco its start. Buildings on the north side of Jackson between Montgomery and Sansome retain cast iron shutters as protection against fire, but when the city burned, in one case, a warehouses contents turned out to be more significant in saving the building
-# Get GPS Coordinates from http://www.gps-coordinates.net/
-map-longitude: "-122.40023"
-map-latitude: "37.79949"
+neighboorhood-background-image-url: "http://img.sfbay.ca/home/wp-content/uploads/2013/08/alamo.jpg"
+neighboorhood-name: Alamo Square
+neighboorhood-description: Neighboorhood description here
+map-longitude: "-122.434908"
+map-latitude: "37.7784659"
+map-zoom-level: 14
 
 # Contact Section
-contact-us-background-image-url: "https://dl.dropboxusercontent.com/s/udahjg026txl67f/2015-09-18%2016.55.17.jpg?dl=0"
-agent-website: "http://www.tradecrafted.com"
+contact-us-background-image-url: "http://www.bcxnews.org/photos/places/cities/us/ca/sf/parks/alamosq/AlamoSquare2008_3899B.jpg"
+agent-website: "http://www.naomilopez.com/"
 
 # TODO  Add gallery images here
 gallery-image-01: "https://dl.dropboxusercontent.com/s/56cpb9eb72ves83/IMG_9436.JPG?dl=0"
