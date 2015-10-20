@@ -27,8 +27,8 @@ list-price: $??,000
 sqft: 2300
 number-of-beds: 3 Beds
 number-of-baths: 2.5 Baths # TODO Fix alignment of baths in html
-matterport-embed-url: "https://my.matterport.com/show/?m=chQ3jHCT4Hp"
-property-description: Property Description here
+matterport-embed-url: "https://my.matterport.com/show/?m=FhV2YDHCkDj"
+property-description: Centered on its namesake park, Alamo Square provides snapshot-worthy views of San Francisco’s iconic Victorian architecture (you might recognize the “Painted Ladies” of Full House fame). Casual restaurants and cool shops add to the allure of this everyday neighborhood’s historic architecture and sweeping panoramas of Downtown. Not known for its rowdy nightlife scene, livelier neighborhoods like Haight-Ashbury and Hayes Valley are right next door.
 
 # Neighboorhood
 neighboorhood-background-image-url: "http://img.sfbay.ca/home/wp-content/uploads/2013/08/alamo.jpg"
