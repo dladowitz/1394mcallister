@@ -284,7 +284,9 @@ author: Captivate Real Estate
                       <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-20d2d7d07ef691626788">
                         <div class="sqs-block-content">
                           <h1>
-                            Purchase Price: {{ site.list-price }}
+                            {% if site.list-price %}
+                              Purchase Price: {{ site.list-price }}
+                            {% endif %}  
                             <br />
                             <strong>{{ site.sqft }} sqft</strong>
                           </h1>

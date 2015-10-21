@@ -23,12 +23,12 @@ property-street-address: 1394 McAllister
 property-full-address: 1394 McAllister. San Francisco, CA, 94115, United States
 property-tag-line: "You're Home"
 video-walkthrough-url: "https://dl.dropboxusercontent.com/s/0jjqtv1hkbncfnn/1394McAllisterWalkthrough.mp4"
-list-price: $??,000
+list-price:
 sqft: 2300
 number-of-beds: 3 Beds
 number-of-baths: 2.5 Baths # TODO Fix alignment of baths in html
 matterport-embed-url: "https://my.matterport.com/show/?m=FhV2YDHCkDj"
-property-description: Property description here.
+property-description: 1394 McAllister is a stunning condominium that perfectly blends Victorian architectural detail with contemporary life style. The restoration and remodel were completed in 2009 and included an architectural re-design of the kitchen, living and dining areas, baths, electrical upgrades and windows. This home is located in the center of the Alamo Square Historical District and offers beautiful downtown and park views. Light pours in from three sides, ceilings soar to 11 feet and the open floor plan spans over 2,300 square feet (per architect), giving this condominium a feeling of grandeur.
 
 # Neighboorhood
 neighboorhood-background-image-url: "http://img.sfbay.ca/home/wp-content/uploads/2013/08/alamo.jpg"
