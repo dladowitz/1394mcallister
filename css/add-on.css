@@ -5,8 +5,29 @@
 }
 
 /*Property*/
+.sqfeet {
+  font-size: 26px
+}
+
 .bed-bath-icon {
   width: 200px;
+}
+
+.home-icons-row {
+  margin: 20px 0 50px 0px;
+}
+
+.home-icon {
+  font-size: 70px;
+  color: #242D2E;
+}
+
+.home-icon-text {
+  font-size: 25px;
+}
+
+.home-icon-div {
+  width: 13% !important;
 }
 
 .highlights-block {

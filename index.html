@@ -6,6 +6,7 @@ author: Captivate Real Estate
   <head>
     <!-- CSS -->
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/site.css?&filterFeatures=false"/>
     <link rel="stylesheet" type="text/css" href="css/commerce-min.css">
     <link href="css/ekko-lightbox.css" rel="stylesheet">
@@ -288,7 +289,7 @@ author: Captivate Real Estate
                               Purchase Price: {{ site.list-price }}
                             {% endif %}
                             <br />
-                            <strong>{{ site.sqft }} sqft</strong>
+                            <strong class="sqfeet">{{ site.sqft }} sqft</strong>
                           </h1>
 
                           <!-- Propery Description -->
@@ -298,52 +299,63 @@ author: Captivate Real Estate
                       </div>
 
                       <!-- Property Beds and Bath Area -->
-                      <div class="row sqs-row">
-                        <div class="col sqs-col-2 span-2">
-                          <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_30_1441942307387_44722">
-                            <div class="sqs-block-content">
-                              <div class="image-block-outer-wrapper layout-caption-below ">
-                                <div class="intrinsic" style="max-width:117.0px;">
-                                  <div style="padding-bottom:60.68376159667969%;" class="image-block-wrapper   " data-description="&lt;h1&gt;4 Bed&lt;/h1&gt;">
-                                    <noscript>
-                                      <img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/"  alt="4 Bed"  />
-                                    </noscript>
-                                    <img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" class="thumb-image" alt="4 Bed" data-src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" data-image="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f256f4e4b0f5b52b4a1449/1441945332772/" data-image-dimensions="117x71" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f256f4e4b0f5b52b4a1449" data-type="image" />
-                                  </div>
-                                  <div class="image-caption-wrapper bed-bath-icon">
-                                    <div class="image-caption">
-                                      <h1>
-                                        {{ site.number-of-beds }}
-                                      </h1>
+
+                      <div class="row sqs-row home-icons-row text-align-center">
+                              <div class="col sqs-col-2 span-2 home-icon-div">
+                                <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_30_1441942307387_44722">
+                                  <div class="sqs-block-content">
+                                    <div class="image-block-outer-wrapper layout-caption-below ">
+                                      <div class="intrinsic" style="max-width:117.0px;">
+                                        <div class="image-block-wrapper">
+                                            <i class="fa fa-bed home-icon"></i>
+                                        </div>
+                                        <div class="image-caption-wrapper">
+                                          <div class="image-caption"><h1 class="home-icon-text">{{ site.number-of-beds }}</h1></div>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="col sqs-col-2 span-2">
-                          <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_10_1441907369577_43072">
-                            <div class="sqs-block-content">
-                              <div class="image-block-outer-wrapper layout-caption-below ">
-                                <div class="intrinsic" style="max-width:117.0px;">
-                                  <div style="padding-bottom:60.68376159667969%;" class="image-block-wrapper   has-aspect-ratio" data-description="&lt;h1&gt;&amp;nbsp; &amp;nbsp;4 Bath&lt;/h1&gt;">
-                                    <noscript><img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/"  alt="   4 Bath"  /></noscript><img src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" xclass="thumb-image" alt="   4 Bath" data-src="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" data-image="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" data-image-dimensions="117x71" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f2561be4b0f5b52b4a112d" data-type="image" />
-                                  </div>
-                                  <div class="image-caption-wrapper bed-bath-icon">
-                                    <div class="image-caption">
-                                      <h1>&nbsp; &nbsp;{{ site.number-of-baths }}</h1>
+                              <div class="col sqs-col-2 span-2 home-icon-div">
+                                <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_10_1441907369577_43072">
+                                  <div class="sqs-block-content">
+                                    <div class="image-block-outer-wrapper layout-caption-below ">
+                                      <div class="intrinsic" style="max-width:117.0px;">
+                                        <div class="image-block-wrapper   has-aspect-ratio" data-description="&lt;h1&gt;&amp;nbsp; &amp;nbsp;4 Bath&lt;/h1&gt;">
+                                          <span class="glyphicon glyphicon-tint home-icon" aria-hidden="true"></span>
+                                          <!-- <img src="https://cloud.githubusercontent.com/assets/909749/7330732/4c4300a6-eb48-11e4-9232-b29ab2fad800.jpg" data-image="http://static1.squarespace.com/static/55f1b3d9e4b018d42078c7ec/t/55f2561be4b0f5b52b4a112d/1441945115601/" data-image-dimensions="117x71" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="55f2561be4b0f5b52b4a112d" data-type="image" /> -->
+                                        </div>
+                                        <div class="image-caption-wrapper">
+                                          <div class="image-caption">
+                                            <h1 class="home-icon-text">{{ site.number-of-baths }}</h1>
+                                          </div>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col sqs-col-8 span-8"></div>
-                      </div>
+                              <div class="col sqs-col-2 span-2 home-icon-div">
+                                <div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-yui_3_17_2_30_1441942307387_44722">
+                                  <div class="sqs-block-content">
+                                    <div class="image-block-outer-wrapper layout-caption-below ">
+                                      <div class="intrinsic" style="max-width:117.0px;">
+                                        <div class="image-block-wrapper   " data-description="&lt;h1&gt;4 Bed&lt;/h1&gt;">
+                                            <i class="fa fa-car home-icon"></i>
+                                        </div>
+                                        <div class="image-caption-wrapper">
+                                          <div class="image-caption"><h1 class="home-icon-text">Garage</h1></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 
+
+                            <div class="col sqs-col-8 span-8"></div>
+                          </div>
 
                     <!-- Highlights Area     -->
                     {% if site.highlights-1 %}
@@ -456,28 +468,6 @@ author: Captivate Real Estate
                               <img src="{{ site.gallery-image-24 }}" class="img-responsive">
                             </a>
                           </div>
-                          <div class="row gallery-row">
-                            <a href="{{ site.gallery-image-25 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-                              <img src="{{ site.gallery-image-25 }}" class="img-responsive">
-                            </a>
-                            <a href="{{ site.gallery-image-26 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-                              <img src="{{ site.gallery-image-26 }}" class="img-responsive">
-                            </a>
-                            <a href="{{ site.gallery-image-27 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-                              <img src="{{ site.gallery-image-27 }}" class="img-responsive">
-                            </a>
-                          </div>
-                          <div class="row gallery-row">
-                            <a href="{{ site.gallery-image-28 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-                              <img src="{{ site.gallery-image-28 }}" class="img-responsive">
-                            </a>
-                            <a href="{{ site.gallery-image-29 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-                              <img src="{{ site.gallery-image-29 }}" class="img-responsive">
-                            </a>
-                            <a href="{{ site.gallery-image-30 }}" data-toggle="lightbox" data-gallery="multiimages" class="col-sm-4 gallery-thumb-link">
-                              <img src="{{ site.gallery-image-30 }}" class="img-responsive">
-                            </a>
-                          </div>
                         </div>
                       </div>
                       <!-- Photo Gallery Section-->
@@ -513,7 +503,7 @@ author: Captivate Real Estate
                                   </table>
                                 </div>
                               </div>
-                            {% endif %} 
+                            {% endif %}
                           </div>
                         </div>
                       </div>
