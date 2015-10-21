@@ -1,10 +1,10 @@
 # TODO Maps are being staticly loaded. Need to find a way to generate a map via gps coordinates.
 
 # Meta tag Images
-meta-tag-image-01: "https://dl.dropboxusercontent.com/s/56cpb9eb72ves83/IMG_9436.JPG"
-meta-tag-image-02: "https://dl.dropboxusercontent.com/s/pcoxq8nv4rorbno/IMG_9446.JPG"
-meta-tag-image-03:
-meta-tag-image-04:
+meta-tag-image-01: "https://dl.dropboxusercontent.com/s/xqard10xkt2rhcw/IMG_0183.JPG?dl=0"
+meta-tag-image-02: "https://dl.dropboxusercontent.com/s/2u507dwb1qksq53/IMG_0200.JPG?dl=0"
+meta-tag-image-03: "https://dl.dropboxusercontent.com/s/1pqh9y88jcejmoh/IMG_0468.JPG?dl=0"
+meta-tag-image-04: "https://dl.dropboxusercontent.com/s/s3fydx81ajpjvvk/IMG_0360.JPG?dl=0"
 
 # Domain
 domain: http://www.AlamoSqCondo.com
