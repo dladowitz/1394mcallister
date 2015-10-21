@@ -23,12 +23,50 @@ property-street-address: 1394 McAllister
 property-full-address: 1394 McAllister. San Francisco, CA, 94115, United States
 property-tag-line: "You're Home"
 video-walkthrough-url: "https://dl.dropboxusercontent.com/s/0jjqtv1hkbncfnn/1394McAllisterWalkthrough.mp4"
-list-price:
+list-price: $1,795,000
 sqft: 2300
 number-of-beds: 3 Beds
 number-of-baths: 2.5 Baths # TODO Fix alignment of baths in html
 matterport-embed-url: "https://my.matterport.com/show/?m=FhV2YDHCkDj"
-property-description: 1394 McAllister is a stunning condominium that perfectly blends Victorian architectural detail with contemporary life style. The restoration and remodel were completed in 2009 and included an architectural re-design of the kitchen, living and dining areas, baths, electrical upgrades and windows. This home is located in the center of the Alamo Square Historical District and offers beautiful downtown and park views. Light pours in from three sides, ceilings soar to 11 feet and the open floor plan spans over 2,300 square feet (per architect), giving this condominium a feeling of grandeur.
+property-description: Stunning full floor house-like Victorian condominium bathed in light with 11’ soaring ceilings and a modern open floorplan.  This beautiful home in an iconic turreted 1890’s corner building seamlessly blends period details and modern living with 3-4BR/2.5BA and 2,300sq ft of living area, bright open kitchen with downtown views, Viking gas range w/ hood, island w/ breakfast bar seating and Calcutta marble counters, 2.5 renovated bathrooms, in-unit laundry room,  rooms, coved ceilings, bay windows, wainscoting, moldings, and two fireplaces. The home is located in the hip Alamo Square neighborhood, just one block from Alamo Square Park, and close to many neighborhood amenities and shuttle stops.  Deeded private garage with a separate additional deeded storage/office/exercise room and wine cellar on ground level.
+
+# Showings
+showings: [
+  {
+    weekday: Saturday,
+    date: October 24,
+    time: "2:00-4:00PM"
+  },
+  { weekday: Sunday,
+    date: October 25,
+    time: "2:00-4:00PM"
+  },
+  {
+    weekday: Tuesday,
+    date:    October 27,
+    time:    "11:00-12:30PM"
+  },
+  {
+    weekday: Thursday,
+    date:    October 29,
+    time:    "5:30-6:30PM"
+  }
+]
+
+# Highlight TODO figure out a way to do two lists side by side with only one highlight collection. Add Columns to Highlights
+highlights-1: [
+  attribute: Incredible Light & Views,
+  attribute: Luxury Renovation,
+  attribute: Open Floor Plan,
+  attribute: 3-4BR/2.5BA,
+]
+
+highlights-2: [
+  attribute: 11 Ft Ceilings,
+  attribute: Independent Garage,
+  attribute: "HOA Dues: $550/month",
+  attribute: "Sq Ft: 2300 per tax records",
+]
 
 # Neighboorhood
 neighboorhood-background-image-url: "http://img.sfbay.ca/home/wp-content/uploads/2013/08/alamo.jpg"
@@ -82,17 +120,10 @@ gallery-image-22: "https://dl.dropboxusercontent.com/s/runjwdqk2kxhe2l/IMG_0247.
 gallery-image-23: "https://dl.dropboxusercontent.com/s/ryye13r0cj716ic/IMG_0257.JPG?dl=0"
 gallery-image-24: "https://dl.dropboxusercontent.com/s/vxz8pcho9m2y0e4/IMG_0243.JPG?dl=0"
 
-
 gallery-image-25: "https://dl.dropboxusercontent.com/s/eohiskl1an64zav/IMG_0426.JPG?dl=0"
 gallery-image-26: "https://dl.dropboxusercontent.com/s/53xggec5e42g0e9/IMG_0414.JPG?dl=0"
 gallery-image-27: "https://dl.dropboxusercontent.com/s/aklm1pqjf7gwuc0/IMG_0438.JPG?dl=0"
 
-
 gallery-image-28: "https://dl.dropboxusercontent.com/s/srfyh7ov0ldnuql/IMG_0497.JPG?dl=0"
 gallery-image-29:
 gallery-image-30:
-#
-# # Row 8
-# gallery-image-22:
-# gallery-image-23:
-# gallery-image-24:
